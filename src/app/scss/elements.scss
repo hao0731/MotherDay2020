@@ -1,0 +1,36 @@
+@import '~src/app/scss/color';
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+
+    .card-content {
+        margin: 5px;
+    }
+
+    .card-action {
+        text-align: center;
+    }
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &.btn-orange {
+        background-color: $orange;
+    }
+
+    &.btn-orange:hover {
+        background-color: $deep-orange;
+    }
+}
+
+.ani-p {
+    font-size: 1.5rem;
+}
